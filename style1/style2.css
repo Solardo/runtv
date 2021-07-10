@@ -15,13 +15,22 @@ body.dark-mode {
     margin-left: 0px!important
 }
 
+
+
+
+
 .poster:hover {
-    transform: scale(1.1);
+    border-radius: 60px;
+box-shadow: 2px 2px 2px 3px rgb(63, 93, 191);
+
 }
 
 .poster img {
-    height: 100%
+    border-radius: 50px;
+    height: auto
 }
+
+
 
 
 .carousel-item>div {
@@ -55,15 +64,9 @@ body.dark-mode {
 
 
 
-#myCarousel .carousel-indicators {
-    center: inherit;
-}
 
-#myCarousel {
-    border-radius: 5px;
-    overflow: hidden;
-    margin-bottom: 10px
-}
+
+
 
 
 @media (max-width: 768px) {
@@ -80,13 +83,8 @@ body.dark-mode {
     display: flex
 }
 
-.carousel-inner .carousel-item-right,.carousel-inner .carousel-item-left {
-    transform: translateX(0)
-}
 
-*:focus {
-    outline: 0!important
-}
+
 
 
 
