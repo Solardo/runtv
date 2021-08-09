@@ -1,11 +1,11 @@
 body {
-background-color: #115473;
+background-color: #2C2C2C;
 }
 
 
 .accordion {
-  background-color: #221F21;
-  color: #DD332F;
+  background-color: #2C2C2C;
+  color: #ffffff;
   cursor: pointer;
   padding: 15px;
   width: 100%;
@@ -17,7 +17,7 @@ background-color: #115473;
 }
 
 .active, .accordion:hover {
-  background-color: #323330; 
+  background-color: #DC2F20; 
 }
 
 .panel {
