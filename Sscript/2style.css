@@ -1,0 +1,83 @@
+body {
+background-image: radial-gradient(circle at 50% -3.03%, #ff9840 0, #ff9f34 5%, #f5a628 10%, #e8ac1e 15%, #d9b218 20%, #cab817 25%, #b9bd1d 30%, #a8c228 35%, #95c634 40%, #81c941 45%, #6acc50 50%, #4dcf5f 55%, #1ad170 60%, #00d280 65%, #00d492 70%, #00d5a4 75%, #00d6b5 80%, #00d6c7 85%, #00d6d9 90%, #00d6ea 95%, #00d5fa 100%);
+
+}
+
+
+.accordion {
+  background-color: #1C78C0;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: yes;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #323330; 
+}
+
+.panel {
+  padding: 0 40px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
