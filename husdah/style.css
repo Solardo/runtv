@@ -101,3 +101,14 @@ body {
     }
 
 }
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.topnav-right {
+  float: right;
+  margin-right: 50px;
+}
