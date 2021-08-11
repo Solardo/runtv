@@ -1,4 +1,4 @@
-@-webkit-keyframes appear {
+ @-webkit-keyframes appear {
   0% {
     opacity: 0;
   }
@@ -205,7 +205,7 @@ a span:first-child {
   opacity: 1;
 }
 .sites a img {
-  width: 55px;
+  width: 100px;
 }
 + .sites a:nth-child(3n) {
   page-break-after: always;
@@ -216,53 +216,24 @@ a span:first-child {
   color: #4584ee;
 }
 
-#Codepen {
-  background: #181818;
-}
-#Codepen img {
-  filter: invert(1);
-}
-
-#Facebook {
-  background: #3b5998;
-}
-#Facebook img {
-  filter: invert(1);
-}
-
-#Instagram {
-  background: #e4405f;
-}
-#Instagram img {
-  filter: invert(1);
-}
-
-#Messenger {
-  background: #0084ff;
-}
-#Messenger img {
-  filter: invert(1);
-}
 
 #Twitter {
-  background: #1da1f2;
+background-image: radial-gradient(circle at 50% 50%, #bcdeff 0, #70aaff 25%, #0276ff 50%, #0045aa 75%, #001b5e 100%);
 }
-#Twitter img {
-  filter: invert(1);
-}
+
 
 #YouTube {
-  background: #fd0016;
-}
-#YouTube img {
-  filter: invert(1);
-  width: 65px;
+background-image: radial-gradient(circle at 50% 50%, #ffc000 0, #ffae00 8.33%, #ff9900 16.67%, #ff8100 25%, #ff6400 33.33%, #ff4200 41.67%, #ff0101 50%, #eb0019 58.33%, #d90025 66.67%, #c8002f 75%, #b90038 83.33%, #ab0042 91.67%, #a0004d 100%);
 }
 
+
+#Messenger {
+background-image: radial-gradient(circle at 50% 50%, #bcdeff 0, #70aaff 25%, #0276ff 50%, #0045aa 75%, #001b5e 100%);
+}
 
 
 #Instagram {
-  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+background-image: radial-gradient(circle at 50% 50%, #ffc000 0, #ffae00 8.33%, #ff9900 16.67%, #ff8100 25%, #ff6400 33.33%, #ff4200 41.67%, #ff0101 50%, #eb0019 58.33%, #d90025 66.67%, #c8002f 75%, #b90038 83.33%, #ab0042 91.67%, #a0004d 100%);
 }
 
 #gh-star {
