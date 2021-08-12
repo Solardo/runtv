@@ -1,10 +1,10 @@
 body {
-background-color: #017CBF;
+background-image: linear-gradient(180deg, #484e6c 0, #182a51 50%, #000437 100%);
 }
 
 
 .accordion {
-  background-color: #00D4FF;
+background-image: linear-gradient(180deg, #5d5268 0, #4c405b 25%, #392e4e 50%, #251d41 75%, #120e36 100%);
   color: #ffffff;
   cursor: pointer;
   padding: 15px;
@@ -17,8 +17,7 @@ background-color: #017CBF;
 }
 
 .active, .accordion:hover {
-  background-color: #DC2F20; 
-}
+background-image: linear-gradient(180deg, #2f2224 0, #1d1717 25%, #020303 50%, #000000 75%, #000000 100%);}
 
 .panel {
   padding: 0 40px;
