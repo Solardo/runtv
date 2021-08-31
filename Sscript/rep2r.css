@@ -1,0 +1,43 @@
+body {
+background-image: radial-gradient(circle at 100% 0%, #d39d00 0, #de9000 8.33%, #e88200 16.67%, #f17000 25%, #f75b00 33.33%, #fc3f00 41.67%, #ff0000 50%, #ff001a 58.33%, #ff002b 66.67%, #ff003a 75%, #fc004b 83.33%, #f6005c 91.67%, #ee0070 100%);
+}
+
+#player-container {
+   margin: 20px auto;
+   width: 910px;
+   height: 360px;
+
+}
+
+
+#player-list > ul {
+   list-style-type: none;
+   float: right;
+  transform: translateY(-35px);
+}
+
+#player-list > ul > li {
+  padding: 14px 16px;
+  background: #1D181A;
+  border-radius: 10px;
+  margin: 20px auto;
+  text-align: center;
+  color: #ffffff;
+ 
+}
+.video:hover {
+   cursor: pointer;
+   border: 8px solid #ffffff;
+
+}
+
+
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  position: fixed;
+   border: 10px solid #1D181A;
+
+}
+
+html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
