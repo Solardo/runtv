@@ -12,7 +12,7 @@ $(document).ready(function ()
   var vid = $('#myvid');
 
   //default video source
-  $(vid).attr("src", $("a.link:first").attr("href"));
+  $(vid).attr("src", $("a.link:first").attr("src"));
 
   // addClass playing to first video link
   $("a.link:first").addClass("playing");
@@ -24,12 +24,12 @@ $(document).ready(function ()
     event.preventDefault();
 
     // change video source
-    $(vid).attr("src", $(this).attr("href"));
+    $(vid).attr("src", $(this).attr("src"));
 
-    // remouve class playing from unplayed video href
+    // remouve class playing from unplayed video src
     $(".vids a").removeClass("playing");
 
-    // add class playing to video href
+    // add class playing to video src
     $(this).addClass("playing");
 
     // add class paused to give the play/pause button the right look  
@@ -317,7 +317,7 @@ $(document).ready(function ()
 
   //previous video button
   $(".prevvid").click(function () {
-    $(vid).attr("src", $(".playing").prev().attr("href"));
+    $(vid).attr("src", $(".playing").prev().attr("src"));
     vid[0].play();
     $(".playing").prev().addClass("playing");
     $(".playing:last").removeClass("playing");
@@ -332,7 +332,7 @@ $(document).ready(function ()
 
   //previous video button
   $(".nextvid").click(function () {
-    $(vid).attr("src", $(".playing").next().attr("href"));
+    $(vid).attr("src", $(".playing").next().attr("src"));
     vid[0].play();
     $(".playing").next().addClass("playing");
     $(".playing:first").removeClass("playing");
