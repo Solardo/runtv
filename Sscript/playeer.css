@@ -1,0 +1,282 @@
+body {
+background-image: linear-gradient(180deg, #0f3641 0, #0f2128 25%, #03090c 50%, #000000 75%, #000000 100%);}
+
+
+
+.container * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.container *:after , .container *:before {
+	margin: 0;
+    padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    background: #00053E;
+    position: relative;
+    height: auto;
+    
+}
+.playercontainer {
+
+	width: 100%;
+    height: 270px;
+    position: relative;
+    margin: 0px;
+    	background: #111;
+
+
+}
+
+video {
+    width: 100%;
+    height: 45%;
+    border: 0px solid #000000;
+
+}
+
+.videolist {
+    float: right;
+    width: 100%;
+background-image: linear-gradient(180deg, #0f3641 0, #0f2128 25%, #03090c 50%, #000000 75%, #000000 100%);    height: 45%;
+    position: relative;
+}
+
+.vids {
+    margin: 5px;
+background-image: linear-gradient(180deg, #0f3641 0, #0f2128 25%, #03090c 50%, #000000 75%, #000000 100%);    max-height: 300px;
+    min-height: 300px;
+    overflow-y: scroll;
+    list-style: none;
+}
+
+
+.vids::-webkit-scrollbar {
+    width: 0px;
+    background-color: #8A8A8A;
+    border: 1px solid #AFACAC;
+
+}
+
+.vids::-webkit-scrollbar-thumb {
+    background-color: #FF8D00;
+    border-radius: 5px;
+}
+.vids::-webkit-scrollbar-thumb:hover{
+background-color:#fff;
+}
+.vids::-webkit-scrollbar-thumb:active{
+background-color:#ccc;
+}
+
+
+.vids a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+background-image: linear-gradient(180deg, #0090ae 0, #007792 25%, #125d73 50%, #1a4455 75%, #192f3a 100%);    padding: 8px 5px;
+    margin: 5px;
+}
+
+/*--- controllers ---*/
+.controllers {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+background-image: linear-gradient(180deg, #0090ae 0, #007792 25%, #125d73 50%, #1a4455 75%, #192f3a 100%);    max-height: 450px;
+    width: 100%;
+}
+
+.controllers button {
+    border: 1px solid #E7E7E7;
+    background-color: #FFFFFF;
+    color: #777;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px;
+    box-shadow: 1px 1px 3px #4C4C4C;
+    outline: none;
+    font-size: 18px;
+    display: inline-block;
+    float: left;
+}
+
+.controllers button:focus {
+    box-shadow: 1px 0px 7px #4C4C4C;
+    border-color: #ff8d00;
+    color: #ff8d00;
+    background-color: #4C4C4C;
+}
+
+.btnPlay:after {
+    content: "\f04b";
+    font-family: 'FontAwesome';
+}
+.paused:after {
+    content: "\f04c";
+}
+
+.sound:after {
+content: "\f027";
+    font-family: 'FontAwesome';
+}
+.sound2:after {
+content: "\f028";
+}
+
+.muted:after {
+    content: "\f026";
+}
+.btnFS:after {
+     content: "\f065";
+    font-family: 'FontAwesome';
+}
+
+.bigplay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 127.5px;
+    left: 85px;
+    z-index: 11;
+    color: #fff;
+    font-size: 150px;
+    line-height: 150px;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 0px 0px 15px #ff8d00;
+}
+.closeme {
+    height: 32px;
+    width: 32px;
+    background-color: #fff;
+    top: -10px;
+    right: -10px;
+    border: 1px solid #ff8d00;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px!important;
+    color: #ff8d00;
+    font-size: 25px!important;
+}
+
+.playing {
+background-image: linear-gradient(180deg, #57584c 0, #232329 50%, #000003 100%);
+    border: 1px solid #ffffff!important;
+    -webkit-transition: 0s;
+    -o-transition: 0s;
+    transition: 0s;
+ }
+.playing:after {
+    content: "\f01d";
+    font-family: 'FontAwesome';
+    color: #fffff;
+    float: right;
+}
+/* PROGRESS BAR CSS */
+
+.topControl {
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 50px;
+    background-color: #fff;
+    z-index: 1;
+}
+/* Progress bar */
+.progress {
+    width: 100%;
+    height: 5px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    background: #999;
+}
+.progress span {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.timeBar{
+    z-index:10;
+    width:0;
+    background: #ff8d00;
+}
+
+.bufferBar{
+    z-index:5;
+    width:0;
+    background: #eee;
+}
+/* time and duration */
+.time{
+    width:12%;
+    float:right;
+    text-align:center;
+    font-size:11px;
+    line-height:12px;
+    right: -12%;
+    opacity: 0;
+    position: absolute;
+}
+
+.topControl:hover .time {
+    right: 0;
+    opacity: 1;
+}
+
+
+.topControl:hover .progress {
+    width: 88%;
+    height: 12px;
+}
+
+/* VOLUME BAR CSS */
+/* volume bar */
+
+
+.loading {
+    width: 100%;
+    background-color: rgba(255,141,0,0.5);
+    height: 45%;
+    position: absolute;
+    top: 0;
+}
+i.fa.fa-spinner.fa-spin {
+    height: 60px;
+    width: 60px;
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 0px 0px 8px #000;
+    top: 172.5px;
+    left: 330px;
+    position: absolute;
+}
+.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #C2C2C2!important;
+}
+
+
+
+
