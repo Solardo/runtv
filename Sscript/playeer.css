@@ -43,8 +43,7 @@ background-image: linear-gradient(180deg, #00435a 0, #022d3d 25%, #041821 50%, #
 video {
     width: 100%;
     height: 45%;
-background-image: linear-gradient(180deg, #00435a 0, #022d3d 25%, #041821 50%, #000000 75%, #000000 100%);
-}
+background-image: linear-gradient(180deg, #313245 0, #080809 50%, #000000 100%);}
 
 .videolist {
     float: right;
