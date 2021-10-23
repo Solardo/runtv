@@ -23,8 +23,8 @@
         "vote_count": 0,
         "sources": [
             {
-                "src": "http://cdn.boxter.live:8081/cine/TNT_SERIES9998/playlist.m3u8",
-                "type": "video/x-matroska"
+                "src": "http://vod.tuxchannel.tv/peliculas/720/body%20brokers%202021.mkv",
+                "type": "video\/mp4"
             }
         ],
         "file": "http://cdn.boxter.live:8081/cine/TNT_SERIES9998/playlist.m3u8",
@@ -64,8 +64,8 @@
         "vote_count": 0,
         "sources": [
             {
-                "src": "http://cdn.boxter.live:8081/cine/TNT_SERIES9998/playlist.m3u8",
-                "type": "video/x-matroska"
+                "src": "http://vod.tuxchannel.tv/peliculas/720/body%20brokers%202021.mkv",
+                "type": "video\/mp4"
             }
         ],
         "file": "http://cdn.boxter.live:8081/cine/TNT_SERIES9998/playlist.m3u8",
@@ -106,7 +106,7 @@
         "sources": [
             {
                 "src": "http://cdn.boxter.live:8081/cine/TNT_SERIES9998/playlist.m3u8",
-                "type": "video/x-matroska"
+                "type": "video\/mp4"
             }
         ],
         "file": "http://cdn.boxter.live:8081/cine/TNT_SERIES9998/playlist.m3u8",
