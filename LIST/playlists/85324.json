@@ -24,7 +24,7 @@
         "sources": [
             {
                 "src": "http://cdn.boxter.live:8081/cine/TNT_SERIES9998/playlist.m3u8",
-                "type": "video\/mp4"
+                "type": "video/x-matroska; codecs="theora, vorbis""
             }
         ],
         "file": "http://cdn.boxter.live:8081/cine/TNT_SERIES9998/playlist.m3u8",
@@ -65,7 +65,7 @@
         "sources": [
             {
                 "src": "http://cdn.boxter.live:8081/cine/TNT_SERIES9998/playlist.m3u8",
-                "type": "video\/mp4"
+                "type": "video/x-matroska; codecs="theora, vorbis""
             }
         ],
         "file": "http://cdn.boxter.live:8081/cine/TNT_SERIES9998/playlist.m3u8",
