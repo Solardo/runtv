@@ -1,4 +1,4 @@
- body{
+  body{
     width: 100%;
     background-color: #0c111b ;
     position: relative;
@@ -16,8 +16,7 @@
 body {
   height:100%;
   width:100%;
-  background-image:url('https://i.natgeofe.com/n/2f3f8c42-afb3-49e1-9656-c480e3128cc0/ngk_spacehub3_2_3x4.jpg');
-  background-color: rgba(0,0,0,30%);
+  background-color: #020202;
   background-attachment: fixed;
   background-size: cover;
   background-position: center top;
@@ -121,3 +120,4 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 
 .see-all-link{display:inline-block;font-size:.9vw;margin-right:4px;max-width:0;line-height:.8vw;-webkit-transition:max-width 1s,opacity 1s,-webkit-transform 750ms;transition:max-width 1s,opacity 1s,-webkit-transform 750ms;-o-transition:max-width 1s,opacity 1s,-o-transform 750ms;-moz-transition:max-width 1s,opacity 1s,transform 750ms,-moz-transform 750ms;transition:max-width 1s,opacity 1s,transform 750ms;transition:max-width 1s,opacity 1s,transform 750ms,-webkit-transform 750ms,-moz-transform 750ms,-o-transform 750ms;white-space:nowrap;vertical-align:bottom;cursor:pointer;opacity:0}@media screen and (max-width:800px){.lolomoRow.lolomoRow_title_card .rowTitle .aro-row-header .see-all-link{font-size:8px}}.lolomoRow.lolomoRow_title_card:hover a.rowTitle:hover{color:#fff}.lolomoRow.lolomoRow_title_card:hover a.rowTitle:hover .aro-row-header .see-all-link{max-width:200px;-webkit-transform:translate(1vw,0);-moz-transform:translate(1vw,0);-ms-transform:translate(1vw,0);-o-transform:translate(1vw,0);transform:translate(1vw,0);opacity:1}.lolomoRow.lolomoRow_title_card:hover a.rowTitle:hover .aro-row-header .aro-row-chevron{-webkit-transform:translate(1vw,0);-moz-transform:translate(1vw,0);-ms-transform:translate(1vw,0);-o-transform:translate(1vw,0);transform:translate(1vw,0);font-size:.65vw;line-height:.8vw}@media screen and (max-width:800px){.lolomoRow.lolomoRow_title_card:hover a.rowTitle:hover .aro-row-header .aro-row-chevron{font-size:6px}}.lolomoRow.lolomoRow_title_card:hover a.rowTitle .rowChevron{display:inline-block}.lolomoRow.lolomoRow_title_card:hover a.rowTitle .aro-row-chevron{display:inline-block;font-size:.9vw;vertical-align:bottom}.lolomoRow.lolomoRow_title_card .originals-row-title{color:#e5e5e5;font-size:1.2vw}@media screen and (max-width:800px){.lolomoRow.lolomoRow_title_card .originals-row-title{font-size:12px}}.lolomoRow.lolomoPreview .rowTitle{background-color:#1a1a1a}.lolomoRow .rowHeader{line-height:1.3;margin:0}.lolomoHeader{min-height:44px;padding:36px 0 24px 60px}.lolomoHeader .title{font-size:36px}.bigRowOpen .bigRow .movable-container,.bigRowOpen .bigRow .static-image{opacity:0}.bigRowOpen .bigRow .video-component-container{height:inherit}
+
