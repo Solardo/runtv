@@ -16,7 +16,7 @@
 		"season": 1,
 		"episode": 1,
 		"production": true,
-		"origin": "http://gratis.shortgod.com",
+		"origin": "http://fina.dyndns.tv",
 		"uuid": "853241150911655367",
 		"season_id": 115091,
 		"episode_id": 1655367,
@@ -24,9 +24,9 @@
 		"vote_count": 0,
 		"sources": [
 			{
-				"src": "/listagratishortgod/tv4.php?c=a0gb",
+				"src": "/Cartoons/Dragon%20Ball/Super/001.mp4",
 ",
-				"type": "video/m3u8"
+				"type": "video/mp4"
 			}
 		],
 		"file": "/Media/TV.Shows/TV.Shows/Marvel.Funko.Shorts.(2016)/Marvel.Funko.Shorts.S01E01/Marvel.Funko.Shorts.S01E01.Spellbound.NoMercy.mp4",
@@ -67,15 +67,16 @@
 		"season": 1,
 		"episode": 2,
 		"production": true,
-		"origin": "https://cdn.nomercy.tv",
-		"uuid": "853241150911655368",
+		"origin": "http://fina.dyndns.tv",
+		"uuid": "853241150911655367",
 		"season_id": 115091,
-		"episode_id": 1655368,
+		"episode_id": 1655367,
 		"vote_average": "0%",
 		"vote_count": 0,
 		"sources": [
 			{
-				"src": "/Media/TV.Shows/TV.Shows/Marvel.Funko.Shorts.(2016)/Marvel.Funko.Shorts.S01E02/Marvel.Funko.Shorts.S01E02.Bait.n.Switch.NoMercy.mp4",
+				"src": "/Cartoons/Dragon%20Ball/Super/001.mp4",
+",
 				"type": "video/mp4"
 			}
 		],
@@ -117,15 +118,16 @@
 		"season": 1,
 		"episode": 3,
 		"production": true,
-		"origin": "https://cdn.nomercy.tv",
-		"uuid": "853241150911655369",
+		"origin": "http://fina.dyndns.tv",
+		"uuid": "853241150911655367",
 		"season_id": 115091,
-		"episode_id": 1655369,
+		"episode_id": 1655367,
 		"vote_average": "0%",
 		"vote_count": 0,
 		"sources": [
 			{
-				"src": "/Media/TV.Shows/TV.Shows/Marvel.Funko.Shorts.(2016)/Marvel.Funko.Shorts.S01E03/Marvel.Funko.Shorts.S01E03.Chimichangas.NoMercy.mp4",
+				"src": "/Cartoons/Dragon%20Ball/Super/001.mp4",
+",
 				"type": "video/mp4"
 			}
 		],
