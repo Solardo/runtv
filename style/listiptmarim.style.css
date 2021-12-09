@@ -27,6 +27,9 @@ img {
 
 #myUL li a:hover:not(.header) {
   background-color: #eee;
+  color: #000000;
+    
+
 }
 
 
@@ -44,10 +47,6 @@ background: #000000;
   outline: none;
   font-size: 20px;
   transition: 0.4s;
-}
-
-.active, .accordion:hover {
-background:#808285;
 }
 
 
