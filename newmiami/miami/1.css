@@ -1,0 +1,96 @@
+
+.imagen1, .imagen2, .imagen3, .imagen4, .imagen5 , .imagen6, .imagen7, .imagen8, .imagen9, .imagen10, .imagen11, .imagen12, .imagen13, .imagen14, .imagen15, .imagen16, .imagen17, .imagen18, .imagen19, .imagen20, .imagen21, .imagen22, .imagen23, .imagen24, .imagen25, .imagen26, .imagen27, .imagen28, .imagen29, .imagen30, .imagen31, .imagen32, .imagen33, .imagen34, .imagen35, .imagen36, .imagen37, .imagen38, .imagen39, .imagen40, .imagen41, .imagen42, .imagen43, .imagen44, .imagen45, .imagen46, .imagen47, .imagen48, .imagen49, .imagen50 {
+position: relative;
+width: 75%; /* Ancho de la miniatura sobre el ancho total de la galería */
+padding-bottom: 75%; /* Idéntico al anterior para miniaturas cuadradas */
+-moz-background-size: cover;-webkit-background-size: cover;background-size: cover;
+margin: 10px auto;
+border-radius: 30px;
+
+}
+
+
+.imagen1:nth-of-type(1) {background-image: url(https://i.ibb.co/zPzKLvk/1.png);}
+.imagen2:nth-of-type(1) {background-image: url(https://i.ibb.co/ChCFYDw/1.png);}
+.imagen3:nth-of-type(1) {background-image: url(https://i.ibb.co/LhBYcZh/1.png);}
+.imagen4:nth-of-type(1) {background-image: url(https://i.ibb.co/wYm450H/1.png);}
+.imagen5:nth-of-type(1) {background-image: url(https://i.ibb.co/z7Z3pbP/1.png);}
+.imagen6:nth-of-type(1) {background-image: url(https://i.ibb.co/18662Ld/1.png);}
+.imagen7:nth-of-type(1) {background-image: url(https://i.ibb.co/JF6PdLk/1.png);}
+.imagen8:nth-of-type(1) {background-image: url(https://i.ibb.co/BzZnth4/1.png);}
+.imagen9:nth-of-type(1) {background-image: url(https://i.ibb.co/MB1YsKT/1.png);}
+.imagen10:nth-of-type(1) {background-image: url(https://i.ibb.co/yd0jG8n/1.png);}
+.imagen11:nth-of-type(1) {background-image: url(https://i.ibb.co/QkKPRbX/1.png);}
+.imagen12:nth-of-type(1) {background-image: url(https://i.ibb.co/QbghD2p/2.png);}
+.imagen13:nth-of-type(1) {background-image: url(https://i.ibb.co/cCqGcXq/1.png);}
+.imagen14:nth-of-type(1) {background-image: url(https://i.ibb.co/jHVSD7N/1.png);}
+.imagen15:nth-of-type(1) {background-image: url(https://i.ibb.co/k33W99q/1.png);}
+.imagen16:nth-of-type(1) {background-image: url(https://i.ibb.co/vzPhprz/2.png);}
+.imagen17:nth-of-type(1) {background-image: url(https://i.ibb.co/cvBbpN1/1.png);}
+.imagen18:nth-of-type(1) {background-image: url(https://i.ibb.co/NCkG8mZ/2.png);}
+.imagen19:nth-of-type(1) {background-image: url(https://i.ibb.co/TWTSjtd/3.png);}
+.imagen20:nth-of-type(1) {background-image: url(https://i.ibb.co/CmW3xsN/4.png);}
+.imagen21:nth-of-type(1) {background-image: url(https://i.ibb.co/rkpcGmL/5.png);}
+.imagen22:nth-of-type(1) {background-image: url(https://i.ibb.co/F6rpFyx/6.png);}
+.imagen23:nth-of-type(1) {background-image: url(https://i.ibb.co/LPjgpzD/7.png);}
+.imagen24:nth-of-type(1) {background-image: url(https://i.ibb.co/RymX8D9/8.png);}
+.imagen25:nth-of-type(1) {background-image: url(https://i.ibb.co/g6NmsHT/9.png);}
+.imagen26:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen27:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen28:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen29:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen30:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen31:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen32:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen33:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen34:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen35:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen36:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen37:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen38:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen39:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen40:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen41:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen42:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen43:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen44:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen45:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen46:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen47:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen48:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen49:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+.imagen50:nth-of-type(1) {background-image: url(https://i.ibb.co/h9Nyv2g/1.png);}
+
+
+
+
+
+
+
+html {
+  width: 100%;
+  height: 100%;
+  background: -webkit-radial-gradient(center, ellipse cover, #012681 0%, #131B28 100%);
+}
+
+
+
+
+body {
+  padding: 0.5em;
+  text-align: center;
+  
+}
+
+.js-url-copy-btn1, .js-url-copy-btn2, .js-url-copy-btn3, .js-url-copy-btn4, .js-url-copy-btn5, .js-url-copy-btn6, .js-url-copy-btn7, .js-url-copy-btn8, .js-url-copy-btn9, .js-url-copy-btn10, .js-url-copy-btn11, .js-url-copy-btn12, .js-url-copy-btn13, .js-url-copy-btn14, .js-url-copy-btn15, .js-url-copy-btn16, .js-url-copy-btn17, .js-url-copy-btn18, .js-url-copy-btn19, .js-url-copy-btn20, .js-url-copy-btn21, .js-url-copy-btn22, .js-url-copy-btn23, .js-url-copy-btn24, .js-url-copy-btn25, .js-url-copy-btn26, .js-url-copy-btn27, .js-url-copy-btn28, .js-url-copy-btn29, .js-url-copy-btn30, .js-url-copy-btn31, .js-url-copy-btn32, .js-url-copy-btn33, .js-url-copy-btn34, .js-url-copy-btn35, .js-url-copy-btn36, .js-url-copy-btn37, .js-url-copy-btn38, .js-url-copy-btn39, .js-url-copy-btn40, .js-url-copy-btn41, .js-url-copy-btn42, .js-url-copy-btn43, .js-url-copy-btn44, .js-url-copy-btn45, .js-url-copy-btn46, .js-url-copy-btn47, .js-url-copy-btn48, .js-url-copy-btn49, .js-url-copy-btn50{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
