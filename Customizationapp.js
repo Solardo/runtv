@@ -398,9 +398,9 @@ function listColor(src) {
   // Loop through each color and create a list item
   src.forEach(function (item) {
     if ('#' + item === currentColor) {
-      html += '<div class="color-item active" id="' + item + '" style="background-color:#' + item + ';" onclick="changeColor(&'' + item + '&')"></div>';
+      html += '<div class="color-item active" id="' + item + '" style="background-color:#' + item + ';" onclick="changeColor(\'' + item + '\')"></div>';
     } else {
-      html += '<div class="color-item" id="' + item + '" style="background-color:#' + item + ';" onclick="changeColor(&' + item + '&')"></div>';
+      html += '<div class="color-item" id="' + item + '" style="background-color:#' + item + ';" onclick="changeColor(\'' + item + '\')"></div>';
     }
 
   });
