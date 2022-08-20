@@ -72,7 +72,7 @@ $(document).ready(function ()
   //video ended event
   vid.on('ended', function () {
     $('.btnPlay').removeClass('paused');
-    vid[0].pause();
+    vid[1].pause();
   });
 
   //video seeking event
