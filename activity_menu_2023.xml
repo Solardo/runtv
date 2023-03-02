@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trueblue"
+    tools:context=".Menu2023Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                app:cardCornerRadius="@dimen/_20sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.denzcoskun.imageslider.ImageSlider
+                        android:id="@+id/imageSlider"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_180sdp"
+                        app:iss_auto_cycle="true"
+                        app:iss_delay="1000"
+                        app:iss_period="2500"
+                        app:iss_title_background="@drawable/gradient"
+                        tools:background="@color/black" />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/paner">
+
+                <TextView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Special"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/scroll"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.cardview.widget.CardView>
+
+            <HorizontalScrollView
+                android:id="@+id/scroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview"
+                tools:ignore="MissingConstraints">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/populares"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/blue"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/popularteam" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/wallpaper"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/blue"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/wallpaper" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/specialkits"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/modric" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/suramerica"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/popularsdls" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/logos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/logos23" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/marvel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/marvel" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/fananime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/fananime" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/logosrock"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/rocklogos" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/kitsrock"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/rockits" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/paner">
+
+                <TextView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="League"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/scroll"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.cardview.widget.CardView>
+
+            <HorizontalScrollView
+                android:id="@+id/scroll2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview"
+                tools:ignore="MissingConstraints">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/laliga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/laligaesp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/bundesliga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/bundesligaale" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/premierleague"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/premiering" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/seriea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/serieaita" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/ligue1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/liguefra" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/textview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/paner">
+
+                <TextView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Region"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/scroll"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.cardview.widget.CardView>
+
+            <HorizontalScrollView
+                android:id="@+id/scroll3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview"
+                tools:ignore="MissingConstraints">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/euro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/euro" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/conmebol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/conmebol" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/concacaf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/concacaf" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/copaafrica"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/africana" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/copaasia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/asiatica" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/textview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/paner">
+
+                <TextView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="Ligas"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/scroll"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.cardview.widget.CardView>
+
+            <HorizontalScrollView
+                android:id="@+id/scroll4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview"
+                tools:ignore="MissingConstraints">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/brasileirao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/brasillogodls" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/ligamx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/mxdlslogo" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/liga1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/indonesiaaadls" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/ligaargentina"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/afa" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/indian"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/indiansuperleague" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/ligacolombia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/ligacolombia" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/malasia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/malaysia" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cambodian"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/cambodian" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/ligachilena"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:backgroundTint="@color/teal_200"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/colorshape"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/_100sdp"
+                                android:layout_height="@dimen/_100sdp"
+                                android:layout_margin="10dp"
+                                android:background="@drawable/chileprimera" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/championsleague"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_20ssp"
+                app:cardBackgroundColor="#000"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/colorshape"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/cleague" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:gravity="center_horizontal"
+                            android:text="CHAMPIONS LEAGUE"
+                            android:textColor="#fff"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/politica"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_20ssp"
+                app:cardBackgroundColor="#000"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/colorshape"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/privacyydls" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:gravity="center_horizontal"
+                            android:text="PRIVACY"
+                            android:textColor="#fff"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
